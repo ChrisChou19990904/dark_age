@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8" />
+    <title>角色色彩學設計</title>
+    <style>
+        body {
+            font-family: "Noto Sans TC", sans-serif;
+            background-color: #1e1e1e;
+            color: #f5f5f5;
+            padding: 30px;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: #ffd700;
+        }
+
+        .character {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            border: 1px solid #444;
+            padding: 20px;
+            border-radius: 12px;
+            background-color: #2a2a2a;
+        }
+        a{
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a:visited {
+            color: #2980b9;
+        }
+        img{
+            border: solid 2px #2980b9;
+        }
+        .color-sample {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 25px;
+            border: 3px solid #fff;
+            flex-shrink: 0;
+        }
+
+        .info h2 {
+            margin-top: 0;
+        }
+
+        .tags span {
+            background-color: #444;
+            padding: 6px 10px;
+            border-radius: 5px;
+            margin-right: 8px;
+            font-size: 14px;
+            display: inline-block;
+            margin-top: 8px;
+        }
+
+        .color-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 50px;
+        }
+
+        .color-table th, .color-table td {
+            border: 1px solid #666;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .color-table th {
+            background-color: #333;
+            color: #ffd700;
+        }
+
+        .color-table tr:nth-child(even) {
+            background-color: #262626;
+        }
+
+        .section {
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+<div id="google-translate-box">
+    <div id="google_translate_element"></div>
+    <!-- Google Translate 的自動翻譯功能 -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'zh-TW',  // 頁面原語言
+                includedLanguages: 'en,es,fr,de,it,zh-CN,ja,ko,th,vi,my,id,ms,ar,he,ru,tg,uk,hi,tr,pt,nl,is,fi,sv,no,ro,kk,bo,mn,la,fil,tl,el',  // 支援的翻譯語言（可擴展）
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <p>點擊上方的語言選單以切換語言</p>
+</div>
+<header><nav><ul>
+    <li><strong>本頁內容：<br></strong>
+        <a>角色色彩學設計與象徵分析</a></li>
+
+    <li><strong>其他文章連結：</strong><br>
+        <ol>
+            <li><a href="index.html" target="_blank">遊戲大綱</a></li>
+            <li><a href="data_of_protagonists.html" target="_blank">主角背景與資料介紹</a></li>
+            <li><a href="information_about_antagonists.html" target="_blank">反派陣營介紹</a></li>
+        </ol>
+    </li>
+</ul></nav></header>
+<header>
+    <h1>暗影審判：三生契約<br /><small>Shadow Verdict: The Triune Pact</small></h1>
+    <h2>角色色彩學設計與象徵分析</h2>
+</header>
+
+<!-- 女巫 -->
+<div class="character">
+    <div class="color-sample" style="background: linear-gradient(45deg, #B22222, #2B2B2B);"></div>
+    <div class="info">
+        <h2>紅髮綠眼的女巫</h2>
+        <p>代表色：紅 + 黑</p>
+        <div class="tags">
+            <span>神秘</span>
+            <span>叛逆</span>
+            <span>禁忌</span>
+        </div>
+        <p><strong>視覺印象：</strong>危險、誘惑、強烈存在感</p>
+        <p><strong>文化象徵：</strong>紅髮象徵異端與魔力，綠眼在歐洲民俗中常與「魔眼」相關</p>
+        <p><strong>情感投射：</strong>讓玩家直觀感受到她是違背秩序、具強烈吸引力的角色</p>
+        <p><strong>沒戴巫師帽的女巫：</strong><br><img style="width:60%;height:auto" src="witch.webp" alt="witch"></p>
+        <p><strong>戴著巫師帽的女巫：</strong><br><img style="width:60%;height:auto" src="witch_with_hat.webp" alt="witch_hat"></p>
+    </div>
+</div>
+<!-- 狼人少女 -->
+<div class="character">
+    <div class="color-sample" style="background: linear-gradient(45deg, #FFD700, #228B22);"></div>
+    <div class="info">
+        <h2>金髮藍眼的狼人少女</h2>
+        <p>代表色：金 + 綠 + 棕</p>
+        <div class="tags">
+            <span>自然</span>
+            <span>純真</span>
+            <span>野性</span>
+        </div>
+        <p><strong>視覺印象：</strong>清新自然、純粹又充滿活力</p>
+        <p><strong>文化象徵：</strong>金髮藍眼源自北歐神話的「純潔」意象，綠色象徵森林與生命力</p>
+        <p><strong>情感投射：</strong>讓玩家感受到她是貼近自然、值得信賴又有野性潛力的角色</p>
+        <p><strong>人類狀態下的狼人少女：</strong><br><img style="width:60%;height:auto" src="blonde.webp" alt="blonde_in_forest"></p>
+    <p><strong>變身後的狼人：</strong><br><img style="width:60%;height:auto" src="werewolf.webp" alt="giant_werewolf"></p>
+    </div>
+</div>
+<!-- 吸血鬼帥哥 -->
+<div class="character">
+    <div class="color-sample" style="background: linear-gradient(45deg, #000000, #8B0000);"></div>
+    <div class="info">
+        <h2>黑髮紅眼的吸血鬼帥哥</h2>
+        <p>代表色：黑 + 深紅 + 白</p>
+        <div class="tags">
+            <span>高貴</span>
+            <span>危險</span>
+            <span>魅惑</span>
+        </div>
+        <p><strong>視覺印象：</strong>冷酷、致命、華麗</p>
+        <p><strong>文化象徵：</strong>黑紅是哥德式色彩的經典配對，象徵死亡與魅力；紅眼代表詛咒與血的渴望</p>
+        <p><strong>情感投射：</strong>玩家對他產生又愛又怕的心理，極具張力</p>
+        <p><strong>吸血鬼帥哥的大頭照：</strong><br><img style="width:60%;height:auto" src="vampire.webp" alt="vampire"></p>
+        <p><strong>吸血鬼帥哥的全身照：</strong><br><img style="width:60%;height:auto" src="dracula_suit.jpg" alt="vampire"></p>
+    </div>
+</div>
+<!-- 色彩學總表 -->
+<div class="section">
+    <h2>🎨 角色配色總覽表</h2>
+    <table class="color-table">
+        <thead>
+        <tr>
+            <th>角色</th>
+            <th>髮色</th>
+            <th>眼色</th>
+            <th>主色調</th>
+            <th>視覺情緒</th>
+            <th>文化/象徵意義</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>紅髮綠眼的女巫</td>
+            <td>紅</td>
+            <td>綠</td>
+            <td>黑 + 紅</td>
+            <td>危險、誘惑、叛逆</td>
+            <td>禁忌力量、異端、反抗權威</td>
+        </tr>
+        <tr>
+            <td>金髮藍眼的狼人少女</td>
+            <td>金</td>
+            <td>藍</td>
+            <td>綠 + 棕</td>
+            <td>自然、純真、野性</td>
+            <td>森林、野性、忠誠、自由</td>
+        </tr>
+        <tr>
+            <td>黑髮紅眼的吸血鬼</td>
+            <td>黑</td>
+            <td>紅</td>
+            <td>黑 + 深紅 + 白</td>
+            <td>高貴、冷酷、魅惑</td>
+            <td>詛咒、不死、高等存在、魅力</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
